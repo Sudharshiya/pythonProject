@@ -1,6 +1,13 @@
+#import random module to use the functions of it
+
 import random
+
+#class and methods
+
 class Membership:
     status="Active"
+
+    #initialise the parameter
     def __init__(self):
         self.student_id= ''
         self.stud_lastname= ''
