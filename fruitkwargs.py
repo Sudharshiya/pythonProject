@@ -1,3 +1,5 @@
+#defining the function to get **kwargs as a argument
+
 def fruit_price(**kwargs):
     sum=0
 # add each values assigned to the key
