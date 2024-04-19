@@ -1,5 +1,7 @@
+#import ticketing.py where the classname is Tickets
+
 from ticketing import Tickets
-status="Open Ticket"
+status="Open Ticket"                 # static variable(assigning outside the function but within the class)
 
 
 def data_entry(): #fetching data to create tickets
