@@ -1,3 +1,5 @@
+# simple program to import random module and implement one of its function
+
 import random
 
 # using random.sample()
