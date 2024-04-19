@@ -1,3 +1,5 @@
+#A simple program to do grading using loop
+
 score= float(input("Enter the score"))
 while score>100 or score<0:
     score = float(input("Invalid score,Enter the valid score:"))
