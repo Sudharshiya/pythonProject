@@ -1,3 +1,5 @@
+#using multi-argument keyworded parameter in a method
+
 def fruit_name(**kwargs):
     for i in kwargs.keys():
         print(i)
