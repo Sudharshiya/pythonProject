@@ -1,5 +1,9 @@
+#using Class and methods to organise according to OOPS style
+
+#class name can be start with a capital letter
 class GradingSystem:
 
+    # defining the average method
     def average(self):
         num=int(input("Enter the number of subjects:"))
         arr_scores=[]
@@ -14,6 +18,8 @@ class GradingSystem:
         print (average)
         return average
 
+    
+#defining grading method by invocate the average function
     def grading(self):
         avg=self.average()
         if avg > 90:
@@ -27,5 +33,5 @@ class GradingSystem:
         elif avg < 50:
             print("Fail")
 
-myobj= GradingSystem()
+myobj= GradingSystem()          # assigning the object(myobj) to the GradingSystem class
 myobj.grading()
